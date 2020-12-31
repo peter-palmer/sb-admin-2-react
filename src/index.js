@@ -5,6 +5,8 @@ import reportWebVitals from "./reportWebVitals";
 import { DataLayer } from "./hooks/DataLayer";
 import reducer, { initialState } from "./reducer";
 
+import "jquery";
+
 // CSS
 import "./assets/scss/sb-admin-2.scss";
 
@@ -12,9 +14,6 @@ import "./assets/scss/sb-admin-2.scss";
 import "./assets/vendor/jquery-easing/jquery.easing.js";
 import "./assets/vendor/bootstrap/js/bootstrap.bundle.js";
 import "./assets/js/sb-admin-2.min.js";
-
-// Other modules
-import "jquery";
 
 ReactDOM.render(
    <React.StrictMode>
